@@ -1,1 +1,32 @@
-/* Your styles here */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  line-height: 1.65em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: 25a2c3;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
