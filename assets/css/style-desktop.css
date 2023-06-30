@@ -141,7 +141,7 @@ header button:hover {
 }
 
 .link > div {
-  border: 1px solid rgb(224, 228, 231);
+  border: 1px solid #dee1e3;
   border-radius: 5px;
   display: inline-block;
   vertical-align: top;
