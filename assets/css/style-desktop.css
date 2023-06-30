@@ -76,6 +76,10 @@ header button {
   border: none;
   border-radius: 5px;
 }
+
+header button:hover {
+  cursor: pointer;
+}
 /*  */
 /*  */
 

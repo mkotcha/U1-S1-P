@@ -75,6 +75,11 @@ header button {
   font-size: 1em;
   border-radius: 10px;
 }
+
+header button:hover {
+  cursor: pointer;
+}
+
 /*  */
 /*  */
 
