@@ -80,7 +80,7 @@ header button {
 header button:hover {
   cursor: pointer;
 }
-/*  */
+/* DESCRPTION */
 /*  */
 
 .description {
@@ -102,7 +102,7 @@ header button:hover {
   padding-left: 50px;
 }
 
-/*  */
+/* EPICODE GARANTISCE */
 /*  */
 
 .guarantees {
@@ -132,7 +132,7 @@ header button:hover {
   font-size: 0.8em;
 }
 
-/*  */
+/* LINK BOX */
 /*  */
 
 .link {
@@ -149,13 +149,17 @@ header button:hover {
   margin: 10px;
 }
 
-.link > div > p {
-  padding-inline: 1em;
+.link h3 {
+  padding-bottom: 0;
+}
+
+.link p {
+  font-size: 0.9em;
 }
 
 .link-picture {
   width: 100%;
-  height: 180px;
+  height: 220px;
   background-size: cover;
   background-position: center center;
   margin-bottom: 1em;
@@ -171,14 +175,14 @@ header button:hover {
   background-image: url(../images/foto3.jpg);
 }
 
-/*  */
+/* FOOTER */
 /*  */
 
 footer {
   color: #c8e7f0;
   background-color: #25a2c3;
   padding: 1em;
-  padding-top: 2em;
+  padding-top: 80px;
   padding-bottom: 3em;
   text-align: center;
 }
@@ -191,6 +195,7 @@ footer {
 
 footer h2 {
   color: #c8e7f0;
+  font-size: 3em;
 }
 
 footer p {
