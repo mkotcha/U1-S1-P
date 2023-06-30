@@ -26,9 +26,11 @@ h6 {
   line-height: 1.5em;
   padding-bottom: 1em;
 }
+
 img {
   width: 100%;
 }
+
 h1,
 h2 {
   font-size: 2em;
@@ -38,26 +40,12 @@ p {
   margin-bottom: 1em;
 }
 
-.container {
-}
 /* HEADER */
 /*  */
 
-header button {
-  background-color: #f04c2f;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  padding: 1em 2em;
-  color: white;
-  border: none;
-  font-size: 1em;
-  border-radius: 10px;
-  margin-bottom: 2em;
-}
-
 .banner {
   background-color: black;
-  padding: 1.2rem;
+  padding: 2em;
 }
 
 .banner img {
@@ -68,18 +56,24 @@ header button {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: center center;
+  padding: 2em;
 }
 
 .course h1 {
-  padding: 1em;
   line-height: 1em;
+  padding-bottom: 0.5em;
 }
 
-.course p {
-  margin-inline: 2em;
-}
-
-.course button {
+header button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 1em 2em;
+  margin-top: 1em;
+  color: white;
+  border: none;
+  font-size: 1em;
+  border-radius: 10px;
 }
 /*  */
 /*  */
@@ -90,7 +84,6 @@ header button {
 
 picture {
   margin-bottom: 2em;
-
   display: inline-block;
 }
 .description picture img {
@@ -103,13 +96,12 @@ picture {
 .guarantees {
   background-color: #e22d0e;
   color: white;
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .guarantees h2 {
   color: white;
   font-size: 2em;
-  padding-top: 1em;
 }
 
 .guarantees p {
@@ -126,7 +118,6 @@ picture {
 
 .guarantees p:last-of-type {
   font-size: 0.8em;
-  margin-bottom: 1em;
 }
 
 /*  */
