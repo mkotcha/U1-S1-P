@@ -8,10 +8,9 @@
 
 body {
   color: #393d41;
-  font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.65em;
   text-align: center;
+  line-height: 2em;
 }
 
 h1,
@@ -23,7 +22,6 @@ h6 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  line-height: 1.5em;
   padding-bottom: 1em;
 }
 
@@ -40,23 +38,27 @@ p {
   margin-bottom: 1em;
 }
 
+picture {
+  margin-bottom: 2em;
+}
 /* HEADER */
 /*  */
 
 .banner {
   background-color: black;
-  padding: 2em;
+  padding: 20px 40px;
+  text-align: left;
 }
 
 .banner img {
-  width: 50%;
+  width: 180px;
 }
 
 .course {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-  background-position: center center;
-  padding: 2em;
+  background-position: center top;
+  padding: 125px 200px;
 }
 
 .course h1 {
@@ -72,22 +74,28 @@ header button {
   margin-top: 1em;
   color: white;
   border: none;
-  font-size: 1em;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /*  */
 /*  */
 
 .description {
-  padding: 2em;
+  padding: 120px 0;
 }
 
-picture {
-  margin-bottom: 2em;
+.description-column {
   display: inline-block;
+  width: 40%;
+  vertical-align: middle;
 }
+
 .description picture img {
   border-radius: 50%;
+}
+
+.description-box {
+  text-align: left;
+  padding-left: 50px;
 }
 
 /*  */
@@ -96,7 +104,7 @@ picture {
 .guarantees {
   background-color: #e22d0e;
   color: white;
-  padding: 2em 1em;
+  padding: 100px 10%;
 }
 
 .guarantees h2 {
@@ -113,7 +121,7 @@ picture {
 .guarantees p:first-of-type {
   padding-bottom: 1em;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.8em;
 }
 
 .guarantees p:last-of-type {
